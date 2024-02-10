@@ -1,0 +1,82 @@
+@font-face{
+    font-family: costumfont1 ;
+    src: url(ProtestRevolution-Regular.ttf);
+}
+@font-face {
+    font-family: COOLFONT;
+    src: url(Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
+
+}
+@font-face {
+    font-family: HONK;
+    src: url(Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+
+}
+
+@font-face {
+    font-family: TEKO;
+    src: url(Teko-VariableFont_wght.ttf);
+
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/32/47/f6/3247f6c9e09e93effc24e5e9cce77a22.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+   font-family: costumfont1;
+
+    
+}
+h3{
+    background-color: white;
+    font:italic;
+    text-align: center;
+    font-family: TEKO;
+    
+
+    
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    background-color: blueviolet;
+    text-align: center;
+    background-size: contain;
+    font-family: costumfont1;
+
+}
+ul{
+    background-color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration-style: dotted;
+    text-decoration: solid;
+    font: bold;
+    font-size: larger;
+    border-radius: 10mm;
+    color: red;
+    font-family: HONK;
+}
+.question{
+    color: yellow;
+    background-color: red;
+    background-blend-mode: lighten;
+    font: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-origin: border-box;
+    border-radius: 100px;
+    
+
+}
+#hellopo{
+    border: 10px solid transparent;
+    width: 300px;
+    height: 300px;
+    border-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/01/14/Flower-Frame-Graphics-57610159-1-580x387.jpg)30 round;
+  
+}
